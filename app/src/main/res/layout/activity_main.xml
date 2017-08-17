@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="com.record.phone.blackdatabases.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="0dp"
+        android:layout_height="21dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:text="Click this image to register your mobile"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+
+
+    <TextView
+        android:id="@+id/txtx"
+        android:layout_width="147dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginTop="24dp"
+        android:text="Click here to copy UID"
+        app:layout_constraintBottom_toTopOf="@+id/textView35"
+        app:layout_constraintLeft_toLeftOf="@+id/txtUID"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/btnCell"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginStart="29dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Search by Cell No"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCnic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btnCnic"
+        app:layout_constraintTop_toTopOf="@+id/btnCnic"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/txtUID"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/txtx"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/btnCnic"
+        android:layout_width="148dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="184dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="175dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Search by CNIC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnweb"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageButton
+        android:id="@+id/btnweb"
+        android:layout_width="143dp"
+        android:layout_height="145dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginEnd="99dp"
+        android:layout_marginLeft="94dp"
+        android:layout_marginRight="99dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintLeft_toLeftOf="@+id/textView35"
+        app:layout_constraintRight_toRightOf="@+id/btnCnic"
+        app:layout_constraintTop_toTopOf="@+id/textView35"
+        app:srcCompat="@mipmap/logo"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+</android.support.constraint.ConstraintLayout>
